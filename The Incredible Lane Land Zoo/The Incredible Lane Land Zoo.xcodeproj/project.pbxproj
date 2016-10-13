@@ -10,8 +10,9 @@
 		5A52C62A1DADAED700B3B434 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52C6291DADAED700B3B434 /* main.swift */; };
 		5A52C6311DADAEE600B3B434 /* Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52C6301DADAEE600B3B434 /* Interactive.swift */; };
 		5A52C6331DADAEF300B3B434 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52C6321DADAEF300B3B434 /* io.swift */; };
-		5A52C6351DADAF0500B3B434 /* AnimalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52C6341DADAF0500B3B434 /* AnimalClass.swift */; };
-		5A52C6371DADAF1100B3B434 /* PeopleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52C6361DADAF1100B3B434 /* PeopleClass.swift */; };
+		5A8E2DD61DAED294007EABD8 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E2DD51DAED294007EABD8 /* Animal.swift */; };
+		5A8E2DD81DAED2A6007EABD8 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E2DD71DAED2A6007EABD8 /* person.swift */; };
+		5A8E2DDA1DAF05AB007EABD8 /* LaneLandZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E2DD91DAF05AB007EABD8 /* LaneLandZoo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,8 +32,10 @@
 		5A52C6291DADAED700B3B434 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5A52C6301DADAEE600B3B434 /* Interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactive.swift; sourceTree = "<group>"; };
 		5A52C6321DADAEF300B3B434 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
-		5A52C6341DADAF0500B3B434 /* AnimalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalClass.swift; sourceTree = "<group>"; };
-		5A52C6361DADAF1100B3B434 /* PeopleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleClass.swift; sourceTree = "<group>"; };
+		5A8E2DD21DAEA5E4007EABD8 /* projectRequirments.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = projectRequirments.rtf; sourceTree = "<group>"; };
+		5A8E2DD51DAED294007EABD8 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		5A8E2DD71DAED2A6007EABD8 /* person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		5A8E2DD91DAF05AB007EABD8 /* LaneLandZoo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaneLandZoo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +71,10 @@
 				5A52C6291DADAED700B3B434 /* main.swift */,
 				5A52C6301DADAEE600B3B434 /* Interactive.swift */,
 				5A52C6321DADAEF300B3B434 /* io.swift */,
-				5A52C6341DADAF0500B3B434 /* AnimalClass.swift */,
-				5A52C6361DADAF1100B3B434 /* PeopleClass.swift */,
+				5A8E2DD21DAEA5E4007EABD8 /* projectRequirments.rtf */,
+				5A8E2DD51DAED294007EABD8 /* Animal.swift */,
+				5A8E2DD71DAED2A6007EABD8 /* person.swift */,
+				5A8E2DD91DAF05AB007EABD8 /* LaneLandZoo.swift */,
 			);
 			path = "The Incredible Lane Land Zoo";
 			sourceTree = "<group>";
@@ -132,11 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A52C6351DADAF0500B3B434 /* AnimalClass.swift in Sources */,
 				5A52C6311DADAEE600B3B434 /* Interactive.swift in Sources */,
+				5A8E2DD81DAED2A6007EABD8 /* person.swift in Sources */,
+				5A8E2DD61DAED294007EABD8 /* Animal.swift in Sources */,
 				5A52C6331DADAEF300B3B434 /* io.swift in Sources */,
-				5A52C6371DADAF1100B3B434 /* PeopleClass.swift in Sources */,
 				5A52C62A1DADAED700B3B434 /* main.swift in Sources */,
+				5A8E2DDA1DAF05AB007EABD8 /* LaneLandZoo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +272,7 @@
 				5A52C62F1DADAED700B3B434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
